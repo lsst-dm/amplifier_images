@@ -8,6 +8,9 @@ import lsst.amplifier_images
 
 
 _g = globals()
-_g.update(build_package_configs(
-    project_name='amplifier_images',
-    version=lsst.amplifier_images.version.__version__))
+_g.update(
+    build_package_configs(
+        project_name="amplifier_images",
+        version=lsst.amplifier_images.version.__version__,
+    )
+)
