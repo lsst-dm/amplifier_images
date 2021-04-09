@@ -6,42 +6,19 @@
 lsst.amplifier_images
 #####################
 
-.. Paragraph that describes what this Python module does and links to related modules and frameworks.
+This package is the beginning of a proposal to replace *some* usage of ``lsst.afw.image.Exposure`` and ``lsst.afw.cameraGeom`` in our representation of raw images, Instrument Signature Removal (ISR), and perhaps the earliest steps of the Calibration Production Pipelines.
 
-.. .. _lsst.amplifier_images-using:
+.. _lsst.amplifier_images-proposal:
 
-.. Using lsst.amplifier_images
-.. ===========================
+Proposal and Overview
+=====================
 
-.. toctree linking to topics related to using the module's APIs.
+.. toctree::
+    :maxdepth: 1
 
-.. .. toctree::
-..    :maxdepth: 1
+    proposal.rst
 
-.. _lsst.amplifier_images-contributing:
-
-Contributing
-============
-
-``lsst.amplifier_images`` is developed at https://github.com/lsst-dm/amplifier_images.
-You can find Jira issues for this module under the `amplifier_images <https://jira.lsstcorp.org/issues/?jql=project%20%3D%20DM%20AND%20component%20%3D%20amplifier_images>`_ component.
-
-.. If there are topics related to developing this module (rather than using it), link to this from a toctree placed here.
-
-.. .. toctree::
-..    :maxdepth: 1
-
-.. .. _lsst.amplifier_images-scripts:
-
-.. Script reference
-.. ================
-
-.. .. TODO: Add an item to this toctree for each script reference topic in the scripts subdirectory.
-
-.. .. toctree::
-..    :maxdepth: 1
-
-.. .. _lsst.amplifier_images-pyapi:
+.. _lsst.amplifier_images-pyapi:
 
 Python API reference
 ====================
